@@ -9,3 +9,6 @@ test('test for one number',()=>{
 test('test the 2 numbers',()=>{
     expect(Add('1,2')).toBe(3)
 })
+test('test the 2 numbers with new line separator , ',()=>{
+    expect(Add('1\n2\n3')).toBe(6)
+})
